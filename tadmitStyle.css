@@ -4,7 +4,14 @@ body {
 }
 .header {
   background-color: black;
-  width: auto;
+
   height: 250px;
-  margin-top: auto;
+}
+.main {
+  background-color: blueviolet;
+  height: 250px;
+}
+.footer {
+  background-color: brown;
+  height: 253px;
 }
