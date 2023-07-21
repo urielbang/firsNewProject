@@ -1,17 +1,116 @@
 body {
   margin: 0;
   padding: 0;
-}
-.header {
   background-color: black;
+}
+.header div {
+  height: 150px;
+  width: 100%;
+}
+.main div {
+  height: 250px;
+  width: 100%;
+}
+.footer div {
+  height: 200px;
+  width: 100%;
+}
 
-  height: 250px;
+p {
+  position: relative;
+  bottom: 250px;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  font-family: myFirstFont;
+  font-size: 50px;
 }
-.main {
-  background-color: blueviolet;
-  height: 250px;
+.githubIcon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 1120px;
+  left: 420px;
 }
-.footer {
-  background-color: brown;
-  height: 253px;
+@font-face {
+  font-family: myFirstFont;
+
+  src: url(.//fonts/Balianpersonaluse-Regular.ttf);
+}
+@font-face {
+  font-family: secondFont;
+  src: url(./fonts/Sparkle\ Dream.ttf);
+}
+
+.header,
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  color: bisque;
+  position: relative;
+  bottom: 1000px;
+  left: 600px;
+  font-size: 50px;
+  font-family: myFirstFont;
+}
+
+.talk {
+  border-top-right-radius: 5px;
+  background-color: bisque;
+  position: relative;
+  bottom: 1220px;
+  left: 1400px;
+}
+
+p {
+  position: relative;
+  bottom: 1020px;
+  color: bisque;
+}
+.emailValue {
+  position: relative;
+  bottom: 1050px;
+  color: bisque;
+  font-size: 50px;
+  font-family: myFirstFont;
+}
+.main p {
+  color: whitesmoke;
+  font-family: secondFont;
+  position: relative;
+  bottom: 1100px;
+}
+.main img {
+  width: 150px;
+  height: 150px;
+}
+.main ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  bottom: 1100px;
+}
+.main .me {
+  border-radius: 20px;
+  position: relative;
+  bottom: 900px;
+  left: 1350px;
+}
+.footer p {
+  color: whitesmoke;
+  font-family: secondFont;
+}
+.footer img {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 170px;
+}
+.footer p {
+  position: relative;
+  bottom: 300px;
 }
